@@ -29,3 +29,16 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# OS関連
+.DS_Store
+
+# エディタやIDEの一時ファイル
+*.swp
+*~
+.idea/
+.vscode/
+
+# バンドルされたGem（ローカルのみで使う）
+/vendor/
+/vendor/bundle
